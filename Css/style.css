@@ -814,8 +814,8 @@ iframe {
 
 .safety {
     padding: 80px 0 116px 0;
-    background: #f6f6f6;
-    background-image: url(../Img/white-teeth.jpg);
+    background: linear-gradient(0deg,rgba(244, 244, 246, 0.8), rgba(250, 250, 250, 0.8)), url(../Img/white-teeth.jpg);
+    /* background: url(../Img/white-teeth.jpg),rgba(255, 255, 255, 0.9); */
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -944,10 +944,9 @@ iframe {
 
 .safety__item-text {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 22px;
-    color: #40424C;
-    text-shadow: 1px 1px 2px rgb(255 255 255), 0 0 1em rgb(133 133 141), 0 0 0.2em rgb(232 231 236);
+    color: #151515;
 }
 
 
